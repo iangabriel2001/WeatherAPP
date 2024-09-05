@@ -1,0 +1,38 @@
+How To Run the Program:
+
+Prerequisites
+--Python 3.x installed
+--PyQt5 installed (pip install pyqt5)
+--Requests library installed (pip install requests)
+
+Installation
+1. Clone or download this repository to your local machine.
+2. Obtain an API key from OpenWeatherMap.
+3. Replace the API key placeholder in the get_weather method of the Python code with your actual API key.
+
+Running the Program
+1. To run the application, execute the Python script:
+	python weather_app.py
+
+How To Use
+
+1. Check Weather:
+--Enter a city name in the input field.
+--Press the "Display Weather" button to fetch and display the temperature, weather description, and corresponding emoji for the city.
+
+2. View Product Manager Accelerator Info:
+--Click the "PM Accelerator" button to display information about the Product Manager Accelerator Program.
+--Click the button again to hide the information.
+
+3. View Developer Information:
+--Click the "Developer Information" button to display the developer's name and school.
+--Click the button again to hide the information.
+
+What I Did
+
+1. Wrote a Class thats implements PyQt5 widget that handles the user interface (UI) layout and functionality.
+2. Wrote methods that fetches weather data from the OpenWeatherMap API based on the city name entered by the user.
+3. Displays temperature in Fahrenheit, and weather conditions are represented by a corresponding emoji.
+4. Created methods that displays Developer information and the Product Manager Accelerator.
+5. Also used some basic stylesheet to style the labels, buttons, and input fields for a uniform look.
+
